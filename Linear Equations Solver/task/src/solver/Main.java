@@ -6,6 +6,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();
         double b = scanner.nextDouble();
-        System.out.println(b / a);
+        double c = scanner.nextDouble();
+        scanner.nextLine();
+        double d = scanner.nextDouble();
+        double e = scanner.nextDouble();
+        double f = scanner.nextDouble();
+        double y = (f - c * d / a) / (e - b * d / a);
+        double x = (c - b * y) / a;
+        System.out.println(x + " " + y);
     }
 }

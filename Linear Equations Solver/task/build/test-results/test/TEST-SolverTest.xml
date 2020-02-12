@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SolverTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-12T16:41:42" hostname="Tobiass-MBP.fritz.box" time="0.092">
+<testsuite name="SolverTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-12T16:48:59" hostname="Tobiass-MBP.fritz.box" time="0.115">
   <properties/>
-  <testcase name="start" classname="SolverTest" time="0.092"/>
+  <testcase name="start" classname="SolverTest" time="0.115"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
->5 3
-0.6
+>4 5 7
+>3 9 9
+0.8571428571428571 0.7142857142857143
 ?[1;31m
 Start test 2?[0m
->12 67
-5.583333333333333
+>1 2 3
+>4 5 6
+-1.0 2.0
 ?[1;31m
 Start test 3?[0m
->12 12
-1.0
+>1.2 3.4 5.6
+>7.8 9.0 12.3
+-0.5458015267175561 1.8396946564885492
 ?[1;31m
 Start test 4?[0m
->-1 1
--1.0
-?[1;31m
-Start test 5?[0m
->2 -3
--1.5
-?[1;31m
-Start test 6?[0m
->2.34 12.23
-5.226495726495727
+>23.21 32.12 65.43
+>1 0 1
+1.0000000000000002 1.3144458281444584
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
